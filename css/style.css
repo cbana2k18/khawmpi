@@ -28,7 +28,7 @@ body, html{
 }
 
 .pimg2{
-  background-image:url('../img/image7.jpg');
+  background-image:url('../img/imag7.jpg');
   min-height:400px;
 }
 
@@ -43,7 +43,7 @@ body, html{
 }
 
 .section-light{
-  background-color:#638fe0;
+  background-color:#c9d1df;
   color:#666;
 }
 
@@ -64,7 +64,7 @@ body, html{
 }
 
 .ptext .border{
-  background-color:#111;
+  background-color:rgb(10, 3, 10);
   color:#fff;
   padding:20px;
 }
@@ -73,7 +73,7 @@ body, html{
   background-color:transparent;
 }
 
-@media(max-width:568px){
+@media(max-width:640px){
   .pimg1, .pimg2, .pimg3{
     background-attachment:scroll;
   }
@@ -85,4 +85,9 @@ body, html{
   background-color: #282e34;
   color: #f4f4f4;
   padding:30px;
+}
+#wholepage{
+  width: 640px;
+  margin-left:auto;
+  margin-right: auto;
 }
