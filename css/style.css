@@ -23,12 +23,12 @@ body, html{
 }
 
 .pimg1{
-  background-image:url('../img/image7.jpg');
+  background-image:url('../img/image0.jpg');
   min-height:100%;
 }
 
 .pimg2{
-  background-image:url('../img/image0.jpg');
+  background-image:url('../img/image7.jpg');
   min-height:400px;
 }
 
