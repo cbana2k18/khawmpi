@@ -8,7 +8,7 @@ body, html{
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2, .pimg3 .pimg4, .pimg5{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -26,17 +26,20 @@ body, html{
   background-image:url('../img/image0.jpg');
   min-height:100%;
 }
-
 .pimg2{
-  background-image:url('../img/imag7.jpg');
-  min-height:400px;
+  background-image:url('../img/image17.jpg');
+  min-height: 500px;
 }
 
 .pimg3{
-  background-image:url('../img/image2.jpg');
-  min-height:400px;
+  background-image:url('../img/image.jpg');
+  min-height:500px;
 }
 
+.pimg4{
+  background-image:url('../img/image1.jpg');
+  min-height:500px;
+}
 .section{
   text-align:center;
   padding:50px 80px;
@@ -57,15 +60,15 @@ body, html{
   top:50%;
   width:100%;
   text-align:center;
-  color:rgb(247, 238, 238);
+  color:rgb(158, 8, 8);
   font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
 }
 
 .ptext .border{
-  background-color:rgb(10, 3, 10);
-  color:#fff;
+  background-color:#f1f1f1;
+  color:rgb(15, 14, 14);
   padding:20px;
 }
 
@@ -73,21 +76,8 @@ body, html{
   background-color:transparent;
 }
 
-@media(max-width:640px){
-  .pimg1, .pimg2, .pimg3{
+@media(max-width:560px){
+  .pimg1, .pimg2, .pimg3, .pimg4{
     background-attachment:scroll;
   }
-}
-
-.button {
-  font: bold 15px Arial;
-  text-decoration: blink;
-  background-color: #282e34;
-  color: #f4f4f4;
-  padding:30px;
-}
-#wholepage{
-  width: 640px;
-  margin-left:auto;
-  margin-right: auto;
 }
